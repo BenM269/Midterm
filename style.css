@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Caprasimo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    
+    
+}
+.Top_Header{
+    background-color: #D61120;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    font-style: semibold;
+    margin-top: 20px;
+    
+}
+.Top_Header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 90px;
+}
+.Top_Header ul li{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle ;
+}
+.Top_Header ul li img{
+    width: 30px;
+    align-items: center;
+}
+.Top_Header ul li h1{
+    display: inline-block;
+    color: white;
+    font-size: 20px; 
+    font-weight: 400; 
+    margin: 0 0 7px 0;   
+}
+.Top_Header ul li h2{
+    display: inline-block;
+    color: white;
+    font-size: 20px; 
+    font-weight: 400; 
+    margin: 0 0 7px 1150px;
+}
+.Main_Header{
+    padding: 5px 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.Title h1{
+    font-size: 40px;
+    color: #D61120;
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 220px;
+    display: block;
+}
+.Main_Header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.Main_Header ul li{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle ;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.Icons{
+    display: inline;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0 0 350px;
+    gap: 25px;
+    width: 25px;
+}
